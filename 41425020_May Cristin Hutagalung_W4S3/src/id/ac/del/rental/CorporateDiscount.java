@@ -1,0 +1,22 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package id.ac.del.rental;
+
+/**
+ *
+ * @author MyBook Hype AMD
+ */
+
+/*Nim	: 41425020
+  Nama	: May Cristin Hutagalung
+  Prodi	: DIV-Teknologi Rekayasa Perangkat Lunak
+*/
+
+public class CorporateDiscount implements Discountable {
+    @Override
+    public double calculateDiscount(double amount) {
+        return amount * 0.15;
+    }
+}
